@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFrameworks>net5.0-windows7.0;net461</TargetFrameworks>
+        <UseWindowsForms>true</UseWindowsForms>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Authors>YanZhiwei</Authors>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageProjectUrl>https://github.com/YanZhiwei/XiangJiang.Windows.Form</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/YanZhiwei/XiangJiang.Windows.Form</RepositoryUrl>
+        <PackageIcon>nugetico.png</PackageIcon>
+        <Product>XiangJiang</Product>
+        <Description>WinForm开发辅助类库， 欢迎PR和Star</Description>
+        <Version>1.0.0-beta</Version>
+    </PropertyGroup>
+    <ItemGroup>
+        <Compile Remove=".assets\**" />
+        <EmbeddedResource Remove=".assets\**" />
+        <None Remove=".assets\**" />
+        <None Include="..\.assets\nugetico.png">
+            <Pack>True</Pack>
+            <PackagePath></PackagePath>
+        </None>
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="XiangJiang" Version="2.0.0" />
+    </ItemGroup>
+</Project>
