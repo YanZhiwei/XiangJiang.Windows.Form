@@ -21,6 +21,10 @@
             <PackagePath></PackagePath>
         </None>
     </ItemGroup>
+    <ItemGroup Condition="'$(TargetFramework)' == 'net461'">
+        <Reference Include="System.Windows" />
+        <Reference Include="System.Windows.Forms" />
+    </ItemGroup>
     <ItemGroup>
         <PackageReference Include="XiangJiang" Version="2.0.0" />
     </ItemGroup>
