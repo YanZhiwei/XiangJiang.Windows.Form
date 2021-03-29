@@ -10,7 +10,7 @@
         <PackageIcon>nugetico.png</PackageIcon>
         <Product>XiangJiang</Product>
         <Description>WinForm开发辅助类库， 欢迎PR和Star</Description>
-        <Version>1.0.0-beta</Version>
+        <Version>1.0.0-beta-2</Version>
     </PropertyGroup>
     <ItemGroup>
         <Compile Remove=".assets\**" />
