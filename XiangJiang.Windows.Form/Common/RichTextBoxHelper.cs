@@ -26,6 +26,11 @@ namespace XiangJiang.Windows.Form.Common
             if (!string.IsNullOrEmpty(splitCharacter)) richTextMsg.Append(splitCharacter);
         }
 
+
+        public static void Clear(this RichTextBox richText)
+        {
+            richText.Text = string.Empty;
+        }
         #endregion Methods
     }
 }

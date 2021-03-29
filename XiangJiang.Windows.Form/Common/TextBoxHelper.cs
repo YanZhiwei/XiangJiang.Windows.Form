@@ -11,6 +11,11 @@ namespace XiangJiang.Windows.Form.Common
     {
         #region Methods
 
+        public static void Clear(this TextBox textBox)
+        {
+            textBox.Text = string.Empty;
+        }
+
         /// <summary>
         ///     清除水印文字
         /// </summary>
